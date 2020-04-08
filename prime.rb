@@ -1,5 +1,5 @@
 # Add  code here!
-
+require 'benchmark'
 
 Benchmark.bm do |bm|
   bm.report do
