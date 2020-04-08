@@ -1,6 +1,6 @@
 # Add  code here!
 require 'benchmark'
-
+# benchmark method to compare multiple methods
 Benchmark.bm do |bm|
   bm.report do
     def prime?(num)
@@ -39,5 +39,5 @@ Benchmark.bm do |bm|
       puts prime2?(105557)
     end
   end
-
+#benchmark method to show time for a single method
 puts Benchmark.measure{prime?(105557)}
