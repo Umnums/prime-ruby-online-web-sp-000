@@ -1,8 +1,6 @@
 # Add  code here!
 def prime?(num)
-  if num == 1
-    return false
-  elsif num <= 0
+  if num == 1 || num <= 0
     return false
   elsif num <= 3
     return true
