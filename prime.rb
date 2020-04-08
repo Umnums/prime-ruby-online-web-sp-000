@@ -26,7 +26,7 @@ Benchmark.bm do |bm|
   end
 
     bm.report do
-      def prime?(num)
+      def prime2?(num)
         if num < 0 or num == 0 or num == 1
           return false
         else
@@ -36,6 +36,7 @@ Benchmark.bm do |bm|
         end
       end
 
-      puts prime?(105557)
+      puts prime2?(105557)
     end
   end
+puts Benchmark.measure(prime?(105557))
