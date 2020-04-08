@@ -39,5 +39,5 @@ Benchmark.bm do |bm|
       puts prime2?(105557)
     end
   end
-end
+
 puts Benchmark.measure(prime?(105557))
