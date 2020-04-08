@@ -39,4 +39,3 @@ Benchmark.bm do |bm|
       puts prime?(105557)
     end
   end
-end
