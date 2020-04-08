@@ -40,4 +40,4 @@ Benchmark.bm do |bm|
     end
   end
 
-puts Benchmark.measure(prime?(105557))
+Benchmark.measure(prime?(105557))
